@@ -11,6 +11,7 @@ if (page.archive){
 <article>
 
   <h2 class="article-title <% if (page.tag){ %> tag<% } else if (page.category){ %> category<% } %>"><%= title %></h2>
+  
 
   <div class="archive">
     <% page.posts.each(function(item){ %>

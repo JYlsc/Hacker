@@ -83,18 +83,15 @@
 
     </div>
 
-    <% if (index && (theme.disqus || theme.gitment)) { %>
-    <div class="article-meta pull-right">
-      <span>
-        <i class="icon-comments"></i>
-        <span>
-          <a href="<%- config.root %><%- item.path %>#comment"><%- __('comment') %></a>
-        </span>
-      </span>
     </div>
-    <% } %>
-  </div>
+
 </article>
-<% if (!index && (theme.disqus || theme.gitment)) { %>
-  <%- partial('comment') %>
+
+<% if (!index){ %>
+  <% if (item.comments && theme.gitment){ %>
+  <%- partial('gitment') %>
+  <% } else { %>
+    <div class="git"></div>
+  <% } %>
 <% } %>
+

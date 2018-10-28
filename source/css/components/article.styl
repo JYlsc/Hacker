@@ -1,6 +1,5 @@
-$hackerRed = #f03838
+
 $hackerGray = #9e9e9e
-$articleTitleColor = #212121
 $articleTextColor = #424242
 
 article
@@ -9,6 +8,7 @@ article
 
   a
     color $hackerRed
+
 
   &:not(:first-child):before
     content ''
@@ -21,23 +21,27 @@ article
     margin-left -75px
 
   blockquote
-    margin 6rem 2rem
+    margin 2rem 1rem
     padding-left 15px
-    line-height 2rem
-    border-left 4px solid $hackerRed
+    border-left 1px solid $hackerRed
+    color #888888
+    
+    li
+      line-height 1.8
 
   .article-title
     position relative
-    color $articleTitleColor
+    color $TitleColor
     font-size 2.4rem
     line-height 1.3
     text-align center
     margin 0
-    padding 0 2rem
+    padding 10px 2rem
+ 
 
     a
       display block
-      color $articleTitleColor
+      color $TitleColor
 
       span
         padding-bottom 3px
@@ -46,7 +50,7 @@ article
         box-shadow inset 0 -2px 0 rgba(240, 56, 56, 0)
 
       &:hover
-        color $articleTitleColor
+        color $TitleColor
 
         span
           box-shadow inset 0 -2px 0 rgba(240, 56, 56, 0.4)
@@ -56,7 +60,7 @@ article
     color $hackerGray
     font-size 1.3rem
     text-align center
-    margin 1rem 0
+    margin 0 
 
     span
       margin 0 0.5rem
@@ -64,7 +68,7 @@ article
     a
       color $hackerGray
       &:hover
-        color $hackerRed
+        color $
 
       time
         font-style italic
@@ -74,11 +78,15 @@ article
     font-size 1.6rem
     color $articleTextColor
 
+
     img
       display block
       max-width: 100%
       height auto
       margin 1rem auto
+
+  .article-content
+    line-height 1.8
 
   .article-footer
     .pull-left
@@ -137,9 +145,8 @@ article
     border-radius 0
 
   p
-    margin 2rem 0
-    line-height 1.8
-
+    margin 0 0 1rem 0
+    line-height 2
 
   .video-container
     position: relative;

@@ -1,0 +1,14 @@
+<div id="git" style=" margin-top: 10rem;border-top: 1px solid #eee;"></div>
+<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
+<script src="https://jjeejj.github.io/js/gitment.js"></script>
+<script>
+var gitment = new Gitment({
+  id: '<%= item.title %>', 
+  owner: "<%= theme.git_own %>",
+  repo: "<%= theme.git_repo %>",
+  oauth: {
+    client_id: "<%= theme.git_id %>",
+    client_secret:"<%= theme.git_secret %>",  },
+})
+gitment.render('git')
+</script>
