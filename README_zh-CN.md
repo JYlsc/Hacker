@@ -6,8 +6,14 @@ __Hacker是一款专注于写作的简洁博客主题。在如此讲究复杂排
 
 一开始是[moyo](http://liuxinyu.me/)为Wordpress所创作的一个主题，由DaraW移植到Hexo。
 
+由JYlsc进行魔改～
+
+添加了gitment评论，修复若干bug，美化界面
+
 ## Demo
-参考我的博客：[DaraW](http://blog.daraw.cn/)  
+原博客风格：[DaraW](http://blog.daraw.cn/)
+
+修改后我的博客风格: [JYlsc](www.aizhp.net)  
 
 ![](https://ooo.0o0.ooo/2016/08/04/57a306f56bee2.png
 )
@@ -85,35 +91,8 @@ menu:
   Tags: /tags
 ```
 
-## 更新
-### v1.2.0
-* 增加`gitment`支持
-* 移除多说
-
-### v1.1.0
-* 增加对关闭文章评论的支持([issue#14](https://github.com/CodeDaraW/Hacker/issues/14))
-* 增加对分类和标签的支持([issue#7](https://github.com/CodeDaraW/Hacker/issues/7))
-
-### v1.0.1
-* 修复了主页上错误的评论链接
-
-### v1.0
-* 修复从文件夹导致的bug([issue#10](https://github.com/CodeDaraW/Hacker/issues/10))
-* 修复`code`标签的显示效果
-
-
-### v0.3
-* 重构ejs模板
-* 改用stylus
-* 添加英文文档
-
-
-### v0.2
-* 去除部分无用css和重复css
-* 修复无分类/标签依然出现icon的bug
-* 重写归档列表页面
-* 修改代码块样式
 
 
 ## 协议
+
 GNU GPL(General Public License) v2.0
