@@ -13,7 +13,7 @@ Edit by JYlsc ( edit css style , add gitment )
 
 Source Blog Style : [DaraW](http://blog.daraw.cn/)  
 
-My Blog Style:[AIZHP](www.aizhp.net)
+My Blog Style:[AIZHP](http://www.aizhp.net)
 
 
 

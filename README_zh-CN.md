@@ -13,7 +13,7 @@ __Hacker是一款专注于写作的简洁博客主题。在如此讲究复杂排
 ## Demo
 原博客风格：[DaraW](http://blog.daraw.cn/)
 
-修改后我的博客风格: [JYlsc](www.aizhp.net)  
+修改后我的博客风格: [JYlsc](http://www.aizhp.net)  
 
 ![](https://ooo.0o0.ooo/2016/08/04/57a306f56bee2.png
 )
